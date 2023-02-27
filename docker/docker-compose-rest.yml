@@ -31,7 +31,7 @@ services:
       dspace__P__dir: /dspace
       dspace__P__server__P__url: http://localhost:8080/server
       dspace__P__ui__P__url: http://localhost:4000
-      dspace__P__name: 'DSpace Started with Docker Compose'
+      dspace__P__name: 'TULAP DSpace'
       # db.url: Ensure we are using the 'dspacedb' image for our database
       db__P__url: 'jdbc:postgresql://dspacedb:5432/dspace'
       # solr.server: Ensure we are using the 'dspacesolr' image for Solr
@@ -39,7 +39,7 @@ services:
       # proxies.trusted.ipranges: This setting is required for a REST API running in Docker to trust requests 
       # from the host machine. This IP range MUST correspond to the 'dspacenet' subnet defined above.
       proxies__P__trusted__P__ipranges: '172.23.0'
-    image: dspace/dspace:dspace-7_x-test
+    image: dspace/dspace:dspace-7.5
     depends_on:
     - dspacedb
     networks:
@@ -72,9 +72,9 @@ services:
     image: dspace/dspace-postgres-pgcrypto
     networks:
       dspacenet:
-    ports:
-    - published: 5432
-      target: 5432
+    # ports:
+    # - published: 5432
+    #   target: 5432
     stdin_open: true
     tty: true
     volumes:
@@ -89,9 +89,9 @@ services:
     - dspace
     networks:
       dspacenet:
-    ports:
-    - published: 8983
-      target: 8983
+    # ports:
+    # - published: 8983
+    #   target: 8983
     stdin_open: true
     tty: true
     working_dir: /var/solr/data
