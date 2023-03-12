@@ -3,3 +3,7 @@ rest:
   host: localhost
   port: 8080
   nameSpace: /server
+ui:
+  ssl: false
+  host: 0.0.0.0
+  port: 4000
