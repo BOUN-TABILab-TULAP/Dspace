@@ -128,17 +128,17 @@ export class MenuResolver implements Resolve<boolean> {
       //   } as LinkMenuItemModel
       // },
       /* Communities & Collections tree */
-      {
-        id: `browse_global_communities_and_collections`,
-        active: false,
-        visible: true,
-        index: 0,
-        model: {
-          type: MenuItemType.LINK,
-          text: `menu.section.browse_global_communities_and_collections`,
-          link: `/community-list`
-        } as LinkMenuItemModel
-      }
+      // {
+      //   id: `browse_global_communities_and_collections`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_global_communities_and_collections`,
+      //     link: `/community-list`
+      //   } as LinkMenuItemModel
+      // }
     ];
     // Read the different Browse-By types from config and add them to the browse menu
     this.browseService.getBrowseDefinitions()
