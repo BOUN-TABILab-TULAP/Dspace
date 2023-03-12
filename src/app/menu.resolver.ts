@@ -95,6 +95,17 @@ export class MenuResolver implements Resolve<boolean> {
     const menuList: any[] = [
       /* TULAP Demo System*/
       {
+        id: `browse_global_home`,
+        active: false,
+        visible: true,
+        index: 0,
+        model: {
+          type: MenuItemType.LINK,
+          text: `menu.section.homepage`,
+          link: `/home`
+        } as LinkMenuItemModel
+      },
+      {
         id: `browse_global_demo_system`,
         active: false,
         visible: true,
