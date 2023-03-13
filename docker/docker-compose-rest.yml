@@ -17,11 +17,13 @@ networks:
       config:
         # Define a custom subnet for our DSpace network, so that we can easily trust requests from host to container.
         # If you customize this value, be sure to customize the 'proxies.trusted.ipranges' env variable below.
-        - subnet: 172.23.0.0/16
+        - subnet: 172.24.0.0/16
 services:
   # DSpace (backend) webapp container
   dspace:
     container_name: dspace
+    env_file:
+      - prod.env
     environment:
       # Below syntax may look odd, but it is how to override dspace.cfg settings via env variables.
       # See https://github.com/DSpace/DSpace/blob/main/dspace/config/config-definition.xml
@@ -29,8 +31,8 @@ services:
       # __D__ => "-" (e.g. google__D__metadata => google-metadata)
       # dspace.dir, dspace.server.url, dspace.ui.url and dspace.name
       dspace__P__dir: /dspace
-      dspace__P__server__P__url: http://localhost:8080/server
-      dspace__P__ui__P__url: http://localhost:4000
+      dspace__P__server__P__url: https://tulap.cmpe.boun.edu.tr/server
+      dspace__P__ui__P__url: https://tulap.cmpe.boun.edu.tr
       dspace__P__name: 'TULAP DSpace'
       # db.url: Ensure we are using the 'dspacedb' image for our database
       db__P__url: 'jdbc:postgresql://dspacedb:5432/dspace'
@@ -38,15 +40,18 @@ services:
       solr__P__server: http://dspacesolr:8983/solr
       # proxies.trusted.ipranges: This setting is required for a REST API running in Docker to trust requests 
       # from the host machine. This IP range MUST correspond to the 'dspacenet' subnet defined above.
-      proxies__P__trusted__P__ipranges: '172.23.0'
+      proxies__P__trusted__P__ipranges: '172.24.0'
+      spring__P__servlet__P__multipart__P__max__D__file__D__size: '2GB'
+      spring__P__servlet__P__multipart__P__max__D__request__D__size: '2GB'
+      handle__P__prefix: '20.500.12913'
     image: dspace/dspace:dspace-7.5
     depends_on:
     - dspacedb
     networks:
       dspacenet:
-    ports:
-    - published: 8080
-      target: 8080
+    # ports:
+    # - published: 8080
+    #   target: 8080
     stdin_open: true
     tty: true
     volumes:
