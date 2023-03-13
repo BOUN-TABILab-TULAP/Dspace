@@ -1,5 +1,6 @@
 <ng-container *ngVar="(communitiesRD$ | async) as communitiesRD">
-  <div *ngIf="communitiesRD?.hasSucceeded ">
+  <!-- We can disable collections and communities component since TULAP Dspace will only have one community-->
+  <!-- <div *ngIf="communitiesRD?.hasSucceeded ">
     <h2>
       {{'home.top-level-communities.head' | translate}}
     </h2>
@@ -10,6 +11,6 @@
     [objects]="communitiesRD$ | async"
     [hideGear]="true">
   </ds-viewable-collection>
-</div>
+</div> -->
 <ds-error *ngIf="communitiesRD?.hasFailed " message="{{'error.top-level-communites' | translate}}"></ds-error>
 <ds-themed-loading *ngIf="communitiesRD?.isLoading " message="{{'loading.top-level-communities' | translate}}"></ds-themed-loading></ng-container>

@@ -2992,8 +2992,18 @@
   
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
   "menu.section.browse_global_communities_and_collections": "Komüniteler ve Koleksiyonlar",
-  
-  
+
+  // "menu.section.about": "About",
+  "menu.section.about": "Hakkımızda",
+
+  // "menu.section.browse_global_demo": "Tool Demos",
+   "menu.section.browse_global_demo": "TULAP Demo Sistemi",
+
+   // "menu.section.browse_homepage": "Homepage",
+   "menu.section.browse_homepage": "Anasayfa",
+
+  // "menu.section.browse_global_datasets": "Datasets and Corpora",
+  "menu.section.browse_global_datasets": "Datasets and Corpora",
   
   // "menu.section.control_panel": "Control Panel",
   "menu.section.control_panel": "Kontrol Paneli",

@@ -2894,7 +2894,13 @@
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
+  "menu.section.about": "About",
 
+  "menu.section.browse_global_demo": "Tool Demos",
+
+  "menu.section.homepage": "Homepage",
+
+  "menu.section.browse_global_datasets": "Datasets and Corpora",
 
   "menu.section.control_panel": "Control Panel",
 

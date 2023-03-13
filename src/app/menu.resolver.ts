@@ -93,18 +93,63 @@ export class MenuResolver implements Resolve<boolean> {
    */
   createPublicMenu$(): Observable<boolean> {
     const menuList: any[] = [
-      /* Communities & Collections tree */
+      /* TULAP Demo System*/
       {
-        id: `browse_global_communities_and_collections`,
+        id: `browse_global_home`,
         active: false,
         visible: true,
         index: 0,
         model: {
           type: MenuItemType.LINK,
-          text: `menu.section.browse_global_communities_and_collections`,
-          link: `/community-list`
+          text: `menu.section.homepage`,
+          link: `/home`
         } as LinkMenuItemModel
-      }
+      },
+      {
+        id: `browse_global_demo_system`,
+        active: false,
+        visible: true,
+        index: 0,
+        model: {
+          type: MenuItemType.LINK,
+          text: `menu.section.browse_global_demo`,
+          link: `/demo`
+        } as LinkMenuItemModel
+      },
+      // {
+      //   id: `browse_global_datasets`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_global_datasets`,
+      //     link: `/demo`
+      //   } as LinkMenuItemModel
+      // },
+      /* Communities & Collections tree */
+      // {
+      //   id: `browse_global_communities_and_collections`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_global_communities_and_collections`,
+      //     link: `/community-list`
+      //   } as LinkMenuItemModel
+      // },
+      {
+          id: `browse_global_about`,
+          active: false,
+          visible: true,
+          index: 0,
+          model: {
+            type: MenuItemType.LINK,
+            text: `menu.section.about`,
+            link: `/demo/about`
+          } as LinkMenuItemModel
+        }
     ];
     // Read the different Browse-By types from config and add them to the browse menu
     this.browseService.getBrowseDefinitions()
