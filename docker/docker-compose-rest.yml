@@ -49,9 +49,9 @@ services:
     - dspacedb
     networks:
       dspacenet:
-    # ports:
-    # - published: 8080
-    #   target: 8080
+    ports:
+    - published: 8081
+      target: 8080
     stdin_open: true
     tty: true
     volumes:
