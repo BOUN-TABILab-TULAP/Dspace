@@ -41,3 +41,4 @@ package-lock.json
 junit.xml
 
 docker/prod.env
+/src/mirador-viewer/config.local.js
