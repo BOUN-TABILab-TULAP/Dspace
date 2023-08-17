@@ -44,7 +44,7 @@ services:
       spring__P__servlet__P__multipart__P__max__D__file__D__size: '2GB'
       spring__P__servlet__P__multipart__P__max__D__request__D__size: '2GB'
       handle__P__prefix: '20.500.12913'
-    image: dspace/dspace:dspace-7.5
+    image: dspace/dspace:dspace-7.6
     depends_on:
     - dspacedb
     networks:
