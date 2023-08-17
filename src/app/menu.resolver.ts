@@ -47,6 +47,7 @@ import {
 import {
   ExportBatchSelectorComponent
 } from './shared/dso-selector/modal-wrappers/export-batch-selector/export-batch-selector.component';
+import { ExternalLinkMenuItemModel } from './shared/menu/menu-item/models/external-link.model';
 
 /**
  * Creates all of the app's menus
@@ -111,10 +112,11 @@ export class MenuResolver implements Resolve<boolean> {
         visible: true,
         index: 0,
         model: {
-          type: MenuItemType.LINK,
+          type: MenuItemType.EXTERNAL,
+          disabled: false,
           text: `menu.section.browse_global_demo`,
-          link: `/demo`
-        } as LinkMenuItemModel
+          href: 'https://tulap.cmpe.boun.edu.tr/demo/'
+        } as ExternalLinkMenuItemModel
       },
       // {
       //   id: `browse_global_datasets`,
@@ -141,14 +143,14 @@ export class MenuResolver implements Resolve<boolean> {
       // },
       {
           id: `browse_global_about`,
-          active: false,
+          active: true,
           visible: true,
           index: 0,
           model: {
-            type: MenuItemType.LINK,
+            type: MenuItemType.EXTERNAL,
             text: `menu.section.about`,
-            link: `/demo/about`
-          } as LinkMenuItemModel
+            href: `https://tulap.cmpe.boun.edu.tr/demo/about/`
+          } as ExternalLinkMenuItemModel
         }
     ];
     // Read the different Browse-By types from config and add them to the browse menu
