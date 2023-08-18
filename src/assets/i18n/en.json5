@@ -2336,6 +2336,10 @@
 
   "item.listelement.badge": "Item",
 
+  "corpus.listelement.badge": "Corpus",
+  
+  "tool.listelement.badge": "Tool",
+
   "item.page.description": "Description",
 
   "item.page.journal-issn": "Journal ISSN",
