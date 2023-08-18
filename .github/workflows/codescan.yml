@@ -8,19 +8,19 @@ name: "Code Scanning"
 # Run this code scan for all pushes / PRs to main or maintenance branches. Also run once a week.
 on:
   push:
-    branches:
-      - main
-      - 'dspace-**'
-  pull_request:
-    branches:
-      - main
-      - 'dspace-**'
-    # Don't run if PR is only updating static documentation
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.txt'
-  schedule:
-    - cron: "37 0 * * 1"
+  #   branches:
+  #     - main
+  #     - 'dspace-**'
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - 'dspace-**'
+  #   # Don't run if PR is only updating static documentation
+  #   paths-ignore:
+  #     - '**/*.md'
+  #     - '**/*.txt'
+  # schedule:
+  #   - cron: "37 0 * * 1"
 
 jobs:
   analyze:
