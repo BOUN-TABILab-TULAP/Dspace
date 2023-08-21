@@ -84,7 +84,14 @@
                   "with": "src/config/store/devtools.prod.ts"
                 }
               ],
-              "optimization": true,
+              "optimization": {
+                "scripts": true,
+                "styles": {
+                  "minify": true,
+                  "inlineCritical": false
+                },
+                "fonts": true
+              },
               "outputHashing": "all",
               "namedChunks": false,
               "aot": true,
