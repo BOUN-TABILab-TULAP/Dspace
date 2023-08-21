@@ -9,3 +9,11 @@ ui:
   port: 4000
 browseBy:
   showThumbnails: false
+  # When set to active, users will be able to switch to the use of this language in the user interface.
+languages:
+  - code: en
+    label: English
+    active: true
+  - code: tr
+    label: Türkçe
+    active: true
