@@ -2575,6 +2575,12 @@
   // "item.page.titleprefix": "Item: ",
   "item.page.titleprefix": "Öge: ",
 
+// "tool.page.titleprefix": "Tool: ",
+  "tool.page.titleprefix": "Tool: ",
+
+// "corpus.page.titleprefix": "Corpus: ",
+  "corpus.page.titleprefix": "Corpus: ",  
+
   // "item.page.volume-title": "Volume Title",
   "item.page.volume-title": "Cilt Başlığı",
 
@@ -2656,6 +2662,9 @@
 
   // "item.page.uri": "URI",
   "item.page.uri": "URI",
+
+  // "item.page.contact-person": "Contact person",
+  "item.page.contact-person": "İletişim kişisi",
 
   // "item.page.bitstreams.view-more": "Show more",
   "item.page.bitstreams.view-more": "Daha fazla göster",

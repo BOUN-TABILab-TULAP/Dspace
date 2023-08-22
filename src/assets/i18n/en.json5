@@ -2349,6 +2349,10 @@
   "item.page.publisher": "Publisher",
 
   "item.page.titleprefix": "Item: ",
+  
+  "tool.page.titleprefix": "Tool: ",
+  
+  "corpus.page.titleprefix": "Corpus: ",
 
   "item.page.volume-title": "Volume Title",
 
