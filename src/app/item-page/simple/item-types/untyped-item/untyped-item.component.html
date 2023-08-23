@@ -48,6 +48,14 @@
       [fields]="['dc.publisher']"
       [label]="'item.page.publisher'">
     </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['local.contact.person']"
+    [separator]="', '"
+    [label]="'item.page.contact-person'">
+  </ds-generic-item-page-field>
+  <a class="btn btn-outline-primary" [hidden]="!itemDemoRoute" (click)="routeLink(itemDemoRoute)" role="button">
+    <i class="fas fa-info-circle"></i> {{"item.page.demo-page" | translate}}
+  </a>
   </div>
   <div class="col-xs-12 col-md-6">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
@@ -66,10 +74,18 @@
       [label]="'item.page.citation'">
     </ds-generic-item-page-field>
     <ds-item-page-uri-field [item]="object"
+    [fields]="['dc.relation.isreferencedby']"
+    [label]="'item.page.referenced-by'">
+    </ds-item-page-uri-field>
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.description.sponsorship']"
+    [label]="'item.page.sponsor'">
+    </ds-generic-item-page-field>
+    <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.uri']"
       [label]="'item.page.uri'">
     </ds-item-page-uri-field>
-    <ds-item-page-collections [item]="object"></ds-item-page-collections>
+    <!-- <ds-item-page-collections [item]="object"></ds-item-page-collections> -->
     <div>
       <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']" role="button">
         <i class="fas fa-info-circle"></i> {{"item.page.link.full" | translate}}

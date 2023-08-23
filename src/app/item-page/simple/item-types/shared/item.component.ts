@@ -35,6 +35,11 @@ export class ItemComponent implements OnInit {
   itemPageRoute: string;
 
   /**
+   * Route to the demo page
+   */
+   itemDemoRoute?: string;
+
+  /**
    * Enables the mirador component.
    */
   iiifEnabled: boolean;

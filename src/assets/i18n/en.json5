@@ -2340,6 +2340,10 @@
   
   "tool.listelement.badge": "Tool",
 
+  "item.page.contact-person": "Contact Person",
+
+  "item.page.demo-page": "Demo Page",
+
   "item.page.description": "Description",
 
   "item.page.journal-issn": "Journal ISSN",
@@ -2347,6 +2351,10 @@
   "item.page.journal-title": "Journal Title",
 
   "item.page.publisher": "Publisher",
+
+  "item.page.referenced-by": "Referenced by",
+
+  "item.page.sponsor": "Sponsor",
 
   "item.page.titleprefix": "Item: ",
   

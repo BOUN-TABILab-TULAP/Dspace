@@ -2555,10 +2555,20 @@
   // "item.edit.withdraw.success": "The item was withdrawn successfully",
   "item.edit.withdraw.success": "Öğe başarıyla çıkartıldı",
 
-
-
   // "item.listelement.badge": "Item",
   "item.listelement.badge": "Öge",
+
+  // "corpus.listelement.badge": "Corpus",
+  "corpus.listelement.badge": "Derlem",
+
+  //  "tool.listelement.badge": "Tool",
+  "tool.listelement.badge": "Araç",
+
+  // "item.page.contact-person": "Contact Person",
+  "item.page.contact-person": "İletişim",
+
+  //  "item.page.demo-page": "Demo Page",
+    "item.page.demo-page": "Demo Sayfası",
 
   // "item.page.description": "Description",
   "item.page.description": "Açıklama",
@@ -2572,14 +2582,20 @@
   // "item.page.publisher": "Publisher",
   "item.page.publisher": "Yayınevi",
 
+  // "item.page.referenced-by": "Referenced by",
+  "item.page.referenced-by": "Referanslar",
+
+  // "item.page.sponsor": "Sponsor",
+  "item.page.sponsor": "Sponsor",
+
   // "item.page.titleprefix": "Item: ",
   "item.page.titleprefix": "Öge: ",
 
 // "tool.page.titleprefix": "Tool: ",
-  "tool.page.titleprefix": "Tool: ",
+  "tool.page.titleprefix": "Araç: ",
 
 // "corpus.page.titleprefix": "Corpus: ",
-  "corpus.page.titleprefix": "Corpus: ",  
+  "corpus.page.titleprefix": "Derlem: ",  
 
   // "item.page.volume-title": "Volume Title",
   "item.page.volume-title": "Cilt Başlığı",
