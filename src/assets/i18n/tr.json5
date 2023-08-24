@@ -2558,8 +2558,8 @@
   // "item.listelement.badge": "Item",
   "item.listelement.badge": "Öge",
 
-  // "corpus.listelement.badge": "Corpus",
-  "corpus.listelement.badge": "Derlem",
+  // "dataset.listelement.badge": "Dataset",
+  "dataset.listelement.badge": "Derlem",
 
   //  "tool.listelement.badge": "Tool",
   "tool.listelement.badge": "Araç",
@@ -2594,8 +2594,8 @@
 // "tool.page.titleprefix": "Tool: ",
   "tool.page.titleprefix": "Araç: ",
 
-// "corpus.page.titleprefix": "Corpus: ",
-  "corpus.page.titleprefix": "Derlem: ",  
+// "dataset.page.titleprefix": "Dataset: ",
+  "dataset.page.titleprefix": "Derlem: ",  
 
   // "item.page.volume-title": "Volume Title",
   "item.page.volume-title": "Cilt Başlığı",
@@ -3021,8 +3021,8 @@
    // "menu.section.browse_homepage": "Homepage",
    "menu.section.browse_homepage": "Anasayfa",
 
-  // "menu.section.browse_global_datasets": "Datasets and Corpora",
-  "menu.section.browse_global_datasets": "Datasets and Corpora",
+  // "menu.section.browse_global_datasets": "Datasets",
+  "menu.section.browse_global_datasets": "Datasets",
   
   // "menu.section.control_panel": "Control Panel",
   "menu.section.control_panel": "Kontrol Paneli",

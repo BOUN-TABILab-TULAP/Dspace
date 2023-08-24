@@ -2336,7 +2336,7 @@
 
   "item.listelement.badge": "Item",
 
-  "corpus.listelement.badge": "Corpus",
+  "dataset.listelement.badge": "Dataset",
   
   "tool.listelement.badge": "Tool",
 
@@ -2360,7 +2360,7 @@
   
   "tool.page.titleprefix": "Tool: ",
   
-  "corpus.page.titleprefix": "Corpus: ",
+  "dataset.page.titleprefix": "Dataset: ",
 
   "item.page.volume-title": "Volume Title",
 
@@ -2852,7 +2852,7 @@
 
   "menu.section.homepage": "Homepage",
 
-  "menu.section.browse_global_datasets": "Datasets and Corpora",
+  "menu.section.browse_global_datasets": "Datasets",
 
   "menu.section.control_panel": "Control Panel",
 
