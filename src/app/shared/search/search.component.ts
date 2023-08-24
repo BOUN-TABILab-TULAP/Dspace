@@ -154,7 +154,7 @@ export class SearchComponent implements OnInit {
   /**
    * Defines whether or not to show the scope selector
    */
-  @Input() showScopeSelector = true;
+  @Input() showScopeSelector = false;
 
   /**
    * Whether or not to track search statistics by sending updates to the rest api
