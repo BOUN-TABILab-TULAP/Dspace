@@ -2846,6 +2846,10 @@
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
+  "menu.section.browse_datasets": "Datasets",
+
+  "menu.section.browse_tools": "Tools",
+
   "menu.section.about": "About",
 
   "menu.section.browse_global_demo": "Tool Demos",
