@@ -106,28 +106,28 @@ export class MenuResolver implements Resolve<boolean> {
           link: `/home`
         } as LinkMenuItemModel
       },
-      {
-        id: `browse_tools`,
-        active: false,
-        visible: true,
-        index: 0,
-        model: {
-          type: MenuItemType.LINK,
-          text: `menu.section.browse_tools`,
-          link: `/search?query=&f.entityType=Tool,equals&spc.page=1`
-        } as LinkMenuItemModel
-      },
-      {
-        id: `browse_datasets`,
-        active: false,
-        visible: true,
-        index: 0,
-        model: {
-          type: MenuItemType.LINK,
-          text: `menu.section.browse_datasets`,
-          link: `/search?query=&f.entityType=Dataset,equals&spc.page=1`
-        } as LinkMenuItemModel
-      },
+      // {
+      //   id: `browse_tools`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_tools`,
+      //     link: `/search?query=&f.entityType=Tool,equals&spc.page=1`
+      //   } as LinkMenuItemModel
+      // },
+      // {
+      //   id: `browse_datasets`,
+      //   active: false,
+      //   visible: true,
+      //   index: 0,
+      //   model: {
+      //     type: MenuItemType.LINK,
+      //     text: `menu.section.browse_datasets`,
+      //     link: `/search?query=&f.entityType=Dataset,equals&spc.page=1`
+      //   } as LinkMenuItemModel
+      // },
       {
         id: `browse_global_demo_system`,
         active: false,
