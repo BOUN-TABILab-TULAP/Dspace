@@ -4112,6 +4112,8 @@
   // "search.filters.filter.author.placeholder": "Author name",
   "search.filters.filter.author.placeholder": "Yazar adı",
 
+  "search.filters.filter.author.label": "Yazar ara",
+
   // "search.filters.filter.birthDate.head": "Birth Date",
   "search.filters.filter.birthDate.head": "Doğum Tarihi",
 
@@ -4136,6 +4138,8 @@
   // "search.filters.filter.creativeWorkKeywords.placeholder": "Subject",
   "search.filters.filter.creativeWorkKeywords.placeholder": "Konu",
 
+  "search.filters.filter.creativeWorkKeywords.label": "Konu ara",
+
   // "search.filters.filter.creativeWorkPublisher.head": "Publisher",
   "search.filters.filter.creativeWorkPublisher.head": "Yayımcı",
 
@@ -4148,8 +4152,12 @@
   // "search.filters.filter.dateIssued.max.placeholder": "Minimum Date",
   "search.filters.filter.dateIssued.max.placeholder": "En Erken Tarih",
 
+  "search.filters.filter.dateIssued.max.label": "Bitiş",
+
   // "search.filters.filter.dateIssued.min.placeholder": "Maximum Date",
   "search.filters.filter.dateIssued.min.placeholder": "En Geç Tarih",
+
+  "search.filters.filter.dateIssued.min.label": "Başlangıç",
 
   // "search.filters.filter.dateSubmitted.head": "Date submitted",
   "search.filters.filter.dateSubmitted.head": "Teslim Edilen Tarih",
@@ -4164,13 +4172,15 @@
   "search.filters.filter.withdrawn.head": "Alınmış",
 
   // "search.filters.filter.entityType.head": "Item Type",
-  "search.filters.filter.entityType.head": "Materyal Türü",
+  "search.filters.filter.entityType.head": "Kaynak Türü",
 
   // "search.filters.filter.entityType.placeholder": "Item Type",
-  "search.filters.filter.entityType.placeholder": "Materyal Türü",
+  "search.filters.filter.entityType.placeholder": "Kaynak Türü",
+
+  "search.filters.filter.entityType.label": "Kaynak türü ara",
 
   // "search.filters.filter.has_content_in_original_bundle.head": "Has files",
-  "search.filters.filter.has_content_in_original_bundle.head": "Dosyalara Sahip",
+  "search.filters.filter.has_content_in_original_bundle.head": "Dosyası Olanlar",
 
   // "search.filters.filter.itemtype.head": "Type",
   "search.filters.filter.itemtype.head": "Tür",
