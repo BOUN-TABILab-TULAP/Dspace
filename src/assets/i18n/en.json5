@@ -1830,6 +1830,8 @@
 
   "home.description": "",
 
+  "home.description.lead": "TULAP, the Turkish Language Processing Platform, provides open source Turkish NLP resources developed at Boğaziçi University. This repository provides 14 datasets and 17 tools.",
+
   "home.breadcrumbs": "Home",
 
   "home.search-form.placeholder": "Search the repository ...",
