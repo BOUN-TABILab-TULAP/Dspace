@@ -4320,10 +4320,10 @@
   "search.sidebar.results": "Sonuçlar",
 
   // "search.sidebar.settings.rpp": "Results per page",
-  "search.sidebar.settings.rpp": "Sayfa Sonuçları",
+  "search.sidebar.settings.rpp": "Sonuç Sayısı",
 
   // "search.sidebar.settings.sort-by": "Sort By",
-  "search.sidebar.settings.sort-by": "Göre Sıralanmış",
+  "search.sidebar.settings.sort-by": "Sıralama Seçenekleri",
 
   // "search.sidebar.settings.title": "Settings",
   "search.sidebar.settings.title": "Ayarlar",
@@ -4348,14 +4348,17 @@
   "sorting.DESC": "Azalan",
 
   // "sorting.dc.title.ASC": "Title Ascending",
-  "sorting.dc.title.ASC": "Artan Başlıklar",
+  "sorting.dc.title.ASC": "Başlık artan sırada",
 
   // "sorting.dc.title.DESC": "Title Descending",
   "sorting.dc.title.DESC": "Azalan Başlıklar",
 
   // "sorting.score.DESC": "Relevance",
-  "sorting.score.DESC": "Bağıntılı",
+  "sorting.score.DESC": "En ilgili olanlar",
 
+  "sorting.dc.date.issued.DESC": "Yayım tarihi azalan sırada",
+
+  "sorting.dc.date.accessioned.DESC": "Erişim tarihi azalan sırada",
 
 
   // "statistics.title": "Statistics",
