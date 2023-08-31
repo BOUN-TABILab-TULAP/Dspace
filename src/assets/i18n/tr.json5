@@ -912,7 +912,7 @@
   "browse.startsWith.type_text": "Veya ilk birkaç harfi girin:",
 
   // "browse.title": "Browsing {{ collection }} by {{ field }} {{ value }}",
-  "browse.title": "{{ field }} {{ value }} ile {{ collection }}'a göz atma",
+  "browse.title": "{{ field }} {{ value }} ile tarama",
 
 
   // "chips.remove": "Remove chip",
