@@ -3023,7 +3023,7 @@
    "menu.section.browse_global_demo": "TULAP Demo Sistemi",
 
    // "menu.section.browse_homepage": "Homepage",
-   "menu.section.browse_homepage": "Anasayfa",
+   "menu.section.homepage": "Anasayfa",
 
   // "menu.section.browse_global_datasets": "Datasets",
   "menu.section.browse_global_datasets": "Datasets",
