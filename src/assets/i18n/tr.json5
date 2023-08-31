@@ -4294,7 +4294,7 @@
 
 
   // "search.results.head": "Search Results",
-  "search.results.head": "Sonuçları Ara",
+  "search.results.head": "Arama Sonuçları",
 
   // "search.results.no-results": "Your search returned no results. Having trouble finding what you're looking for? Try putting",
   "search.results.no-results": "Aramanız hiçbir sonuç vermedi. Aradığınızı bulmakta sorun mu yaşıyorsunuz? Bir daha deneyin.",
@@ -4770,25 +4770,25 @@
   "submission.sections.describe.relationship-lookup.selection-tab.title.isChildOrgUnitOf": "Seçili Organizasyonlar",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaJournal": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaJournal": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaJournal": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaPublisher": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaPublisher": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.sherpaPublisher": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.orcid": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.orcid": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.orcid": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.orcidv2": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.orcidv2": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.orcidv2": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.lcname": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.lcname": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.lcname": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.pubmed": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.pubmed": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.pubmed": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Search Results",
-  "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Sonuçları Ara",
+  "submission.sections.describe.relationship-lookup.selection-tab.title.arxiv": "Arama Sonuçları",
 
   // "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Would you like to save \"{{ value }}\" as a name variant for this person so you and others can reuse it for future submissions? If you don't you can still use it for this submission.",
   "submission.sections.describe.relationship-lookup.name-variant.notification.content": "Bu kişi için \"{{ value }}\" ilerideki gönderilerde kullanılabilmek için Yeni İsim olarak kaydedilsin mi? Bunu yapmazsanız, yine de bu gönderim için kullanabilirsiniz .",
