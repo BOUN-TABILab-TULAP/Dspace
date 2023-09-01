@@ -852,7 +852,7 @@
   "browse.metadata.subject.breadcrumbs": "Konuya Göre Gözat",
 
   // "browse.metadata.title.breadcrumbs": "Browse by Title",
-  "browse.metadata.title.breadcrumbs": "Başlığa göre göz atın",
+  "browse.metadata.title.breadcrumbs": "Başlığa Göre Gözat",
 
   // "browse.startsWith.choose_start": "(Choose start)",
   "browse.startsWith.choose_start": "(Başlangıç seç)",
@@ -2998,16 +2998,18 @@
   "menu.section.browse_global": "Tümü",
 
   // "menu.section.browse_global_by_author": "By Author",
-  "menu.section.browse_global_by_author": "Yazara göre",
+  "menu.section.browse_global_by_author": "Yazara Göre",
 
   // "menu.section.browse_global_by_dateissued": "By Issue Date",
-  "menu.section.browse_global_by_dateissued": "Yayın tarihine göre",
+  "menu.section.browse_global_by_dateissued": "Yayın Tarihine Göre",
 
   // "menu.section.browse_global_by_subject": "By Subject",
-  "menu.section.browse_global_by_subject": "Konuya göre",
+  "menu.section.browse_global_by_subject": "Konuya Göre",
+
+  "menu.section.browse_global_by_srsc": "Konu Başlığına Göre",
 
   // "menu.section.browse_global_by_title": "By Title",
-  "menu.section.browse_global_by_title": "Başlığa göre",
+  "menu.section.browse_global_by_title": "Başlığa Göre",
 
   // "menu.section.browse_global_communities_and_collections": "Communities & Collections",
   "menu.section.browse_global_communities_and_collections": "Komüniteler ve Koleksiyonlar",
