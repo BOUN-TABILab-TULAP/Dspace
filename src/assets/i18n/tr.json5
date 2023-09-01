@@ -3022,10 +3022,10 @@
   "menu.section.about": "Hakkımızda",
 
   // "menu.section.browse_global_demo": "Tool Demos",
-   "menu.section.browse_global_demo": "TULAP Demo Sistemi",
+   "menu.section.browse_global_demo": "Araç Demoları",
 
-   // "menu.section.browse_homepage": "Homepage",
-   "menu.section.homepage": "Anasayfa",
+  // "menu.section.browse_homepage": "Homepage",
+  "menu.section.homepage": "Anasayfa",
 
   // "menu.section.browse_global_datasets": "Datasets",
   "menu.section.browse_global_datasets": "Datasets",
