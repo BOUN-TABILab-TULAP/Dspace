@@ -4061,6 +4061,9 @@
   "search.breadcrumbs": "Ara",
 
 
+  // "search.search-form.placeholder": "Search the repository ...",
+  "search.search-form.placeholder": "Ara",
+
   // "search.filters.applied.f.author": "Author",
   "search.filters.applied.f.author": "Yazar",
 
