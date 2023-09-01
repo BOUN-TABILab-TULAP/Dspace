@@ -5069,6 +5069,8 @@
   "submission.workflow.tasks.pool.show-detail": "Detayaları göster",
 
 
+  // "thumbnail.default.placeholder": "No Thumbnail Available",
+  "thumbnail.default.placeholder": "Resim Yok",
 
   // "title": "DSpace",
   "title": "DSpace",
