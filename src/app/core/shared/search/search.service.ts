@@ -232,6 +232,11 @@ export class SearchService implements OnDestroy {
           return observableCombineLatest(searchResult$Array).pipe(
             map((page: SearchResult<T>[]) => {
 
+              page = page.filter((result: SearchResult<T>) => {
+                const type = result.indexableObject.type.toString();
+                return !(type === 'community' || type === 'collection');
+              });
+
               const payload = Object.assign(new SearchObjects(), resultsRd.payload, {
                 page
               }) as SearchObjects<T>;
