@@ -22,6 +22,7 @@ services:
   # DSpace (backend) webapp container
   dspace:
     container_name: dspace
+    restart: always
     env_file:
       - prod.env
     environment:
@@ -73,6 +74,7 @@ services:
   # DSpace database container    
   dspacedb:
     container_name: dspacedb
+    restart: always
     environment:
       PGDATA: /pgdata
     image: dspace/dspace-postgres-pgcrypto
@@ -88,6 +90,7 @@ services:
   # DSpace Solr container  
   dspacesolr:
     container_name: dspacesolr
+    restart: always
     image: "${DOCKER_OWNER:-dspace}/dspace-solr:${DSPACE_VER:-latest}"
     # Needs main 'dspace' container to start first to guarantee access to solr_configs
     depends_on:

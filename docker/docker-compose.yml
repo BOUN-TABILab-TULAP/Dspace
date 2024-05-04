@@ -15,6 +15,7 @@ networks:
 services:
   dspace-angular:
     container_name: dspace-angular
+    restart: always
     environment:
       DSPACE_UI_SSL: 'false'
       DSPACE_UI_HOST: 0.0.0.0
